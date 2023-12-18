@@ -1,8 +1,10 @@
 
 
-const button =document.getElementsById("click")
+const button =document.getElementsById("click");
+let counter=0;
 
 button.addEventListener('click', function() {
-    alert("Button clicked!")
+    counter+=1
+    alert("Button clicked! ",counter);
     console.log('Button clicked!');
   });
