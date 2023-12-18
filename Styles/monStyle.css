@@ -1,0 +1,11 @@
+h1{
+    font-size:2rem;
+    background-color:red;
+    text-align: center;
+    transition: 0.5 ease-in-out;
+}
+h1:hover{
+    transform: scale(1.2);
+    background: #000;
+    color:red
+}
