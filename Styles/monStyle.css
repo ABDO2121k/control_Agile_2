@@ -1,0 +1,14 @@
+#click{
+    background-color: blue;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    color: aliceblue;
+    transition: 0.4s;
+}
+
+
+#click:hover{
+    border: 1px solid transparent;
+    background-color: aliceblue;
+    color: blue;
+}
